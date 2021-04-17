@@ -37,7 +37,7 @@ swiftでの開発が初めてで、且独学での勉強のため、まずは簡
 <br>
 
 # DEMO
-<img src="https://user-images.githubusercontent.com/78135903/115113716-a9709200-9fc6-11eb-82a6-c7c5db56d5dd.gif" width="20%">
+<img src="https://user-images.githubusercontent.com/78135903/115113716-a9709200-9fc6-11eb-82a6-c7c5db56d5dd.gif" width="25%">
 <br>
 <br>
 
