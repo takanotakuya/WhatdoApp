@@ -26,8 +26,18 @@ struct ContentView: View {
                     }
                 }
                 
-                Text("+")
-                    .font(.title)
+                if self.userData.isEditing {
+                    Draft()
+                }
+                else {
+                    Button(action: {
+                        self.userData.isEditing = true
+                    })
+                    {
+                        Text("+")
+                            .font(.title)
+                    }
+                }
             }
             .navigationBarTitle(Text("DREAM LISTS"))
             .navigationBarItems(trailing: Button(action: {
