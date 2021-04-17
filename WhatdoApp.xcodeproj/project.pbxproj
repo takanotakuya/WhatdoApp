@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B09AC876262AC488002B3273 /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09AC875262AC488002B3273 /* Draft.swift */; };
 		B0D33A12262AAC5100781A81 /* WhatdoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D33A11262AAC5100781A81 /* WhatdoAppApp.swift */; };
 		B0D33A14262AAC5100781A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D33A13262AAC5100781A81 /* ContentView.swift */; };
 		B0D33A16262AAC5500781A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D33A15262AAC5500781A81 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B09AC875262AC488002B3273 /* Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
 		B0D33A0E262AAC5100781A81 /* WhatdoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatdoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D33A11262AAC5100781A81 /* WhatdoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatdoAppApp.swift; sourceTree = "<group>"; };
 		B0D33A13262AAC5100781A81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				B0D33A11262AAC5100781A81 /* WhatdoAppApp.swift */,
 				B0D33A13262AAC5100781A81 /* ContentView.swift */,
+				B09AC875262AC488002B3273 /* Draft.swift */,
 				B0D33A29262AB96200781A81 /* UserTask.swift */,
 				B0D33A26262AB83700781A81 /* UserData.swift */,
 				B0D33A21262AAF8500781A81 /* ListRow.swift */,
@@ -150,6 +153,7 @@
 				B0D33A2A262AB96200781A81 /* UserTask.swift in Sources */,
 				B0D33A14262AAC5100781A81 /* ContentView.swift in Sources */,
 				B0D33A12262AAC5100781A81 /* WhatdoAppApp.swift in Sources */,
+				B09AC876262AC488002B3273 /* Draft.swift in Sources */,
 				B0D33A27262AB83700781A81 /* UserData.swift in Sources */,
 				B0D33A22262AAF8500781A81 /* ListRow.swift in Sources */,
 			);

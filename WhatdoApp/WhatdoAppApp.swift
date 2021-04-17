@@ -12,6 +12,7 @@ struct WhatdoAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserData())
         }
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var userData = UserData()
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView {
@@ -26,17 +26,43 @@ struct ContentView: View {
                     }
                 }
                 
-                Text("+")
-                    .font(.title)
+                if self.userData.isEditing {
+                    Draft()
+                }
+                else {
+                    Button(action: {
+                        self.userData.isEditing = true
+                    })
+                    {
+                        Text("+")
+                            .font(.title)
+                    }
+                }
             }
             .navigationBarTitle(Text("DREAM LISTS"))
-            .navigationBarItems(trailing: Text("Delete"))
+            .navigationBarItems(trailing: Button(action: {
+                DeleteTask()
+            })
+            {
+                Text("Delete")
+            }
+            )
         }
+    }
+    
+    func DeleteTask() {
+        let necessaryTask = self.userData.tasks.filter({!$0.checked})
+        self.userData.tasks = necessaryTask
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .environmentObject(UserData())
+            ContentView()
+                .environmentObject(UserData())
+        }
     }
 }
