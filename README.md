@@ -37,7 +37,7 @@ swiftでの開発が初めてで、且独学での勉強のため、まずは簡
 <br>
 
 # DEMO
-![demo](https://user-images.githubusercontent.com/78135903/115113005-0bc79380-9fc3-11eb-9f5e-fc97e19858a3.mp4)
+![demo](https://gyazo.com/5058f200b7a711bd00a94dbcad44bf92)
 <br>
 <br>
 
