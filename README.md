@@ -37,7 +37,7 @@ swiftでの開発が初めてで、且独学での勉強のため、まずは簡
 <br>
 
 # DEMO
-![demo](https://gyazo.com/5058f200b7a711bd00a94dbcad44bf92)
+![](https://gyazo.com/5058f200b7a711bd00a94dbcad44bf92.png)
 <br>
 <br>
 
