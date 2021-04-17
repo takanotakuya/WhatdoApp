@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03A4FAB262ADBD300E36C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D33A13262AAC5100781A81 /* ContentView.swift */; };
 		B09AC876262AC488002B3273 /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09AC875262AC488002B3273 /* Draft.swift */; };
 		B0D33A12262AAC5100781A81 /* WhatdoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D33A11262AAC5100781A81 /* WhatdoAppApp.swift */; };
-		B0D33A14262AAC5100781A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D33A13262AAC5100781A81 /* ContentView.swift */; };
 		B0D33A16262AAC5500781A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D33A15262AAC5500781A81 /* Assets.xcassets */; };
 		B0D33A19262AAC5500781A81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D33A18262AAC5500781A81 /* Preview Assets.xcassets */; };
 		B0D33A22262AAF8500781A81 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D33A21262AAF8500781A81 /* ListRow.swift */; };
@@ -21,7 +21,7 @@
 		B09AC875262AC488002B3273 /* Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
 		B0D33A0E262AAC5100781A81 /* WhatdoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatdoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D33A11262AAC5100781A81 /* WhatdoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatdoAppApp.swift; sourceTree = "<group>"; };
-		B0D33A13262AAC5100781A81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0D33A13262AAC5100781A81 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		B0D33A15262AAC5500781A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0D33A18262AAC5500781A81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0D33A1A262AAC5500781A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +121,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 				Base,
 			);
 			mainGroup = B0D33A05262AAC5100781A81;
@@ -151,8 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D33A2A262AB96200781A81 /* UserTask.swift in Sources */,
-				B0D33A14262AAC5100781A81 /* ContentView.swift in Sources */,
 				B0D33A12262AAC5100781A81 /* WhatdoAppApp.swift in Sources */,
+				B03A4FAB262ADBD300E36C03 /* ContentView.swift in Sources */,
 				B09AC876262AC488002B3273 /* Draft.swift in Sources */,
 				B0D33A27262AB83700781A81 /* UserData.swift in Sources */,
 				B0D33A22262AAF8500781A81 /* ListRow.swift in Sources */,
