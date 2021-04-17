@@ -9,9 +9,19 @@ import SwiftUI
 
 struct Draft: View {
     @State var taskTitle = ""
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
-        TextField("やりたいことを入力して下さい", text: $taskTitle)
+        TextField("やりたいことを入力して下さい", text: $taskTitle, onCommit: {
+            self.createTask()
+            self.userData.isEditing = false
+        })
+    }
+    
+    func createTask() {
+        let newTask = Task(title: self.taskTitle, checked: false)
+        self.userData.tasks.insert(newTask, at: 0)
+        self.taskTitle = ""
     }
 }
 
